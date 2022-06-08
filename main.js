@@ -1,3 +1,3 @@
 function onScroll() {
-  navigation.classList.add('scroll')
+  document.getElementById('navigation').classList.add('scroll')
 }

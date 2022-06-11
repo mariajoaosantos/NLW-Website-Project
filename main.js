@@ -1,8 +1,24 @@
+window.addEventListener('scroll', onScroll)
+
+onScroll()
 function onScroll() {
+  showNavOnScroll()
+  showBackToTopButtonOnScroll()
+}
+
+function showNavOnScroll() {
   if (scrollY == 0) {
     document.getElementById('navigation').classList.remove('scroll')
   } else {
     document.getElementById('navigation').classList.add('scroll')
+  }
+}
+
+function showBackToTopButtonOnScroll() {
+  if (scrollY > 200) {
+    document.getElementById('backToTopButton').classList.add('show')
+  } else {
+    document.getElementById('backToTopButton').classList.remove('show')
   }
 }
 

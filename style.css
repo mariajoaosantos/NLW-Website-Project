@@ -650,7 +650,7 @@ footer .social-links {
   /*===SERVICES===*/
 
   #services h2 {
-    width: 47rem;
+    width: 50rem;
     margin-inline: auto;
   }
 
@@ -694,6 +694,10 @@ footer .social-links {
 
   #contact .col-a {
     align-self: center;
+  }
+
+  #contact .button {
+    margin-bottom: 0;
   }
 
   /*===FOOTER===*/
